@@ -16,8 +16,8 @@ st.write("Enter a long text below, and get a concise summary!")
 long_text = st.text_area("Enter text to summarize:",height=200)
 
 #Summary Parameters
-max length = st.slider("Max Summary Length", min_value = 50, max_value = 300, value = 130)
-min length st.slider("Min Summary Length", min_value = 20, max value = 100, value = 38)
+max_length = st.slider("Max Summary Length", min_value = 50, max_value = 300, value = 130)
+min_length st.slider("Min Summary Length", min_value = 20, max value = 100, value = 38)
 
 if st.button("Summarize"):
     if long_text.strip():
