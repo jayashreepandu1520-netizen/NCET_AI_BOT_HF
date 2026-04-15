@@ -13,7 +13,7 @@ st.title("🤖 AI Text Summarizer")
 st.write("Enter a long text below, and get a concise summary!")
 
 #Text Input
-long text = st.text_area("Enter text to summarize:",height=200)
+long_text = st.text_area("Enter text to summarize:",height=200)
 
 #Summary Parameters
 max length = st.slider("Max Summary Length", min_value = 50, max_value = 300, value = 130)
